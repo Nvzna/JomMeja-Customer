@@ -1,0 +1,252 @@
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 99;
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+
+.sidebar .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 36px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes up at least the full viewport height */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the content vertically */
+    align-items: center; /* Center the content horizontally */
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Ensure header spans full width */
+    padding-bottom: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.highlight-text {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center; /* Center text */
+}
+
+
+
+.subtitle {
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-align: center; /* Center text */
+}
+
+.button, .button2 {
+    display: block;
+    width: 100%;
+    max-width: 300px; /* Limit maximum width for better responsiveness */
+    padding: 15px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.button {
+    background-color: #007bff;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.button2 {
+    background-color: #02eaff;
+    
+}
+
+.button2:hover {
+    background-color: #00c4cc;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 300px; /* Limit maximum width for better responsiveness */
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.card-content {
+    flex-grow: 1;
+}
+
+.card-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card-subtitle {
+    font-size: 12px;
+    color: #6c757d;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Add gap between buttons */
+    justify-content: center; /* Center the buttons horizontally */
+    margin-bottom: 20px;
+}
+
+.tags button {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e9ecef;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.tags button.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.tags button:hover {
+    background-color: #ced4da;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust the minmax value as needed */
+    gap: 10px;
+    justify-items: center; /* Center images within their grid cells */
+}
+
+.image-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure images cover the space without distortion */
+    border-radius: 5px; /* Optional: rounded corners for images */
+}
+
+.image-grid a {
+    display: block;
+}
+
+.landscape-image {
+    grid-column: span 2; /* Span multiple columns if needed */
+}
+
+
+@media (max-width: 600px) {
+    .highlight-text {
+        font-size: 16px;
+    }
+
+    .subtitle {
+        font-size: 24px;
+    }
+
+    .button, .button2 {
+        padding: 12px;
+    }
+
+    .card {
+        display: flex;
+        align-items: center; /* Ensures that the image and text are vertically aligned */
+        padding: 15px;
+        background-color: #f8f9fa;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        width: 100%;
+        max-width: 300px; /* Limit maximum width for better responsiveness */
+        text-align: left; /* Aligns text to the left */
+    }
+    
+    .card img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 15px; /* Adds spacing between the image and the text */
+    }
+    
+    .card-content {
+        flex-grow: 1; /* Ensures that the content takes the remaining space */
+    }
+    
+    .card-title {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+    .card-subtitle {
+        font-size: 12px;
+        color: #6c757d;
+    }
+    
+}

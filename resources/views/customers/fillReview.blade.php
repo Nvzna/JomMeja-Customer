@@ -13,7 +13,7 @@
 <body>
 
     <div class="wrapper">
-        <h3>Lorem ipsum dolor sit amet</h3>
+        <h3>Your review provides valuable insights.</h3>
         <form action="#">
             <div class="rating">
                 <input type="number" name="" hidden>

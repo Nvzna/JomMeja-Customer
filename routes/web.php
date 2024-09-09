@@ -24,6 +24,7 @@ Route::get('/customer/instagram', [CustomerController::class, 'instagram'])->nam
 
 Route::get('/customer/community', [CustomerController::class, 'community'])->name('customer.community');
 Route::get('/customer/review', [CustomerController::class, 'review'])->name('customer.review');
+Route::get('/customer/fillReview', [CustomerController::class, 'fillReview'])->name('customer.fillReview');
 
 
 

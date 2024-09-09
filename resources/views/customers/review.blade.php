@@ -19,7 +19,7 @@
                     We have helped companies increase their customer base and generate
                     multifold revenue with our service
                 </p>
-                <button>Read our success stories</button>
+                <button><a href="{{ route('customer.fillReview') }}" class="">Rate Yourself</a></button>
             </div>
             <div class="container_right">
                 <div class="card">

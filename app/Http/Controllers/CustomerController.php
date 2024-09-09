@@ -28,5 +28,8 @@ class CustomerController extends Controller
     public function review(){
         return view('customers.review');
     }
+    public function fillReview(){
+        return view('customers.fillReview');
+    }
 
 }

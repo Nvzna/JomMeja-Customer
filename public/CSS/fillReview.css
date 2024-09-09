@@ -1,46 +1,32 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-}
-
-:root{
-    --yellow: #ffbd13;
-    --blue: #4383ff;
-    --blue-d-1: #3278ff;
-    --light: #f5f5f5;
-    --grey: #aaa;
-    --white: #FFF;
-    --shadow: 8px 8px 30px rgba(0,0,0,.05);
-}
-
-body{
-    background: var(--light);
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
 }
 
+.review-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    width: 400px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
 
-
-.wrapper{
-    background: var(--white);
-    padding: 2rem;
-    max-width: 576px;
-    width: 100%;
-    border-radius: .75rem;
-    box-shadow: var(--shadow);
+.review-container h3 {
     text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
-.wrapper h3{
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
+
+.review-container p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
 }
+
 .rating{
     display: flex;
     justify-content: center;
@@ -77,42 +63,32 @@ body{
     transform: scale(1.1);
 }
 
+.clickable {
+    display: inline-block; /* Ensures the span can be easily clicked */
+    padding: 15px; /* Makes the clickable area larger */
+    cursor: pointer; /* Changes cursor to pointer */
+    font-size: 24px; /* Adjust size as needed */
+}
 
-textarea{
+.clickable:active {
+    color: #007bff; /* Change color on click if desired */
+}
+
+.feedback-box {
     width: 100%;
-    background: var(--light);
-    padding: 1rem;
-    border-radius: .5rem;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
     border: none;
-    outline: none;
-    resize: none;
-    margin-bottom: .5rem;
-}
-.btn-group{
-    display: flex;
-    grid-gap: .5rem;
-    align-items: center;
-}
-.btn-group .btn{
-    padding: .75rem 1rem;
-    border-radius: .5rem;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-size: .875rem;
-    font-weight: 500;
-}
-.btn-group .btn.submit{
-    background: var(--blue);
-    color: var(--white);
-}
-.btn-group .btn.submit:hover{
-    background: var(--blue-d-1);
-}
-.btn-group .btn.cancel{
-    background: var(--white);
-    color: var(--blue);
-}
-.btn-group .btn.cancel:hover{
-    background: var(--light);
+    border-radius: 5px;
+    font-size: 1.1rem;
 }

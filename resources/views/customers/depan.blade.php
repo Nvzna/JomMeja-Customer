@@ -15,7 +15,7 @@
         <div class="header">
             <div class="logo">
                 <img src="" alt="Logo" class="logo-img">
-                Mej4
+                JomMeja
             </div>
             <div class="menu-icon" onclick="toggleSidebar()">☰</div>
         </div>

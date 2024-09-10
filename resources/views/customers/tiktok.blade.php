@@ -15,7 +15,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <div class="logo">Mej4</div>
+            <div class="logo">JomMeja</div>
             <div class="menu-icon" onclick="toggleSidebar()">☰</div>
         </div>
         <div id="sidebar" class="sidebar">

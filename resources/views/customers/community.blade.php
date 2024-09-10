@@ -12,7 +12,7 @@
     <div class="container">
         <!-- Header Section -->
         <div class="header">
-            <div class="logo">LogoMej4/Mej4</div>
+            <div class="logo">Logo/JomMeja</div>
             <div class="menu-icons">
                 <i class="fa fa-user"></i>
                 <i class="fa fa-bars" onclick="toggleSidebar()">☰</i> <!-- Open Sidebar -->

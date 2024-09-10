@@ -61,7 +61,10 @@
             <img src="{{ asset('images/dessert2.jfif') }}" alt="Food 4" >
            
             <img src="{{ asset('images/dessert3.jfif') }}" alt="Food 4" >
-            <img src="{{ asset('images/dessert4.jfif') }}" alt="Food 4" >
+            <img src="{{ asset('images/dessert4.jfif') }}" alt="Food 5" >
+            <img src="{{ asset('fromInstagram/insta1.jfif') }}" alt="Food 6" >
+            <img src="{{ asset('fromInstagram/insta2.jfif') }}" alt="Food 7" >
+            <img src="{{ asset('fromInstagram/insta3.jfif') }}" alt="Food 8" >
         </div>
     </div>
 

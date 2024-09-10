@@ -44,7 +44,7 @@
             <a href="{{route('customer.depan')}}" ><button>All</button></a>
             <a href="{{route('customer.tiktok')}}" ><button>Tiktok</button></a>
             <a href="{{route('customer.instagram')}}"><button class="active">Instagram</button></a>
-            <button>Facebook</button>
+            <button>Google Review</button>
         </div>
         <div class="image-grid">
             <a href="https://www.instagram.com/p/C-HfKqrzep0/" target="_blank"> <img src="{{ asset('fromInstagram/insta1.jfif') }}" alt="Food 1" width="200" height="350"> </a>

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
-    <link rel="icon" href="{{ asset('images/logoMeja1.png') }}" type="image/icon type">
+    <link rel="icon" href="{{ asset('images/logoMeja3.png') }}" type="image/icon type">
 
     <link rel="stylesheet" type="text/css" href="{{ url('/CSS/sidebr.css') }}" />
 
@@ -30,7 +30,7 @@
         <div class="highlight-text">New offers at the tip of your finger!</div>
         <div class="subtitle">Scan & Earn.</div>
 
-        <a href="" class="button">Join Our Community Group</a>
+        <a href="{{route('customer.community')}}" class="button">Join Our Community Group</a>
         <a href="" class="button2   ">Our Menu</a>
 
         <a href="https://www.instagram.com/richiamo.klts/" target="_blank">

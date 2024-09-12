@@ -31,7 +31,7 @@
         <div class="subtitle">Scan & Earn.</div>
 
         <a href="{{route('customer.community')}}" class="button">Join Our Community Group</a>
-        <a href="" class="button2   ">Our Menu</a>
+        <a href="" class="button2">Our Menu</a>
 
         <a href="https://www.instagram.com/richiamo.klts/" target="_blank">
             <div class="card">

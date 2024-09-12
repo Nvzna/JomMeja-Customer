@@ -8,6 +8,34 @@ a{
     text-decoration: none;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Ensure header spans full width */
+    padding-bottom: 20px;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.logo-img{
+    border-radius: 10px;
+    padding: 1px;
+    width: 35px;
+}
+.menu-icon {
+    font-size: 24px;
+    position: fixed;  /* Keeps the icon fixed on the screen as you scroll */
+    right: 30px;  /* Moves the icon to the left side of the screen */
+    top: 25px;  /* Adjust the top margin to your preference */
+    font-size: 24px;  /* Adjust the size of the icon */
+    cursor: pointer;  /* Adds a pointer on hover */
+}
+
+
 .create-review {
     display: flex;
     justify-content: flex-end; /* Aligns the review box to the right */

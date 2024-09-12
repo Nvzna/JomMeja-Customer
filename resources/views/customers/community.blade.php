@@ -12,12 +12,14 @@
     <div class="container">
         <!-- Header Section -->
         <div class="header">
-            <div class="logo">Logo/JomMeja</div>
+            <div class="logo"><img src="{{ asset('images/logoMeja3.png') }}" alt="Logo" class="logo-img">
+                JomMeja
+            </div>
             <div class="menu-icons">
                 <i class="fa fa-user"></i>
                 <i class="fa fa-bars" onclick="toggleSidebar()">☰</i> <!-- Open Sidebar -->
             </div>
-        </div>
+        </div> <br><br><br><br>
 
         <!-- Sidebar Section -->
         <div id="sidebar" class="sidebar">
@@ -30,7 +32,7 @@
 
         <!-- Content Section -->
         <div class="content">
-            <img src="{{ asset('images/RichiamoLogo.png') }}" alt="Richiamo Coffee Logo" class="logo-img">
+            <img src="{{ asset('images/RichiamoLogo.png') }}" alt="Richiamo Coffee Logo" class="logo-img2">
             <h2>Richiamo Coffee</h2>
 
             <div class="buttons">

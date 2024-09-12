@@ -26,12 +26,12 @@ body {
 }
 
 .logo {
-    font-size: 54px;
+    font-size: 24px;
     font-weight: bold;
     display: flex;
     align-items: center;
 }
-.logo-img {
+.logo-img{
     border-radius: 10px;
     padding: 1px;
     width: 35px;
@@ -54,10 +54,15 @@ body {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-
+.logo-img2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
 
 h2 {
-    font-size: 24px;
+    font-size: 34px;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -139,15 +144,16 @@ h2 {
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 30px;
+        font-style: italic;
     }
 
     .buttons {
-        gap: 8px;
+        gap: 18px;
     }
 
     .button {
-        padding: 8px;
+        padding: 13px;
         font-size: 14px;
     }
 }

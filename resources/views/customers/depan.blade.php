@@ -14,7 +14,7 @@
     <div class="container">
         <div class="header">
             <div class="logo">
-                <img src="" alt="Logo" class="logo-img">
+                <img src="{{ asset('images/logoMeja3.png') }}" alt="Logo" class="logo-img">
                 JomMeja
             </div>
             <div class="menu-icon" onclick="toggleSidebar()">☰</div>

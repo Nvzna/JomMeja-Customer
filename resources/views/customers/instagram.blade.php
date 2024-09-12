@@ -15,7 +15,9 @@
 <body>
     <div class="container">
         <div class="header">
-            <div class="logo">JomMeja</div>
+            <div class="logo"><img src="{{ asset('images/logoMeja3.png') }}" alt="Logo" class="logo-img">
+                JomMeja
+            </div>
             <div class="menu-icon" onclick="toggleSidebar()">☰</div>
         </div>
         <div id="sidebar" class="sidebar">
@@ -44,7 +46,7 @@
             <a href="{{route('customer.depan')}}" ><button>All</button></a>
             <a href="{{route('customer.tiktok')}}" ><button>Tiktok</button></a>
             <a href="{{route('customer.instagram')}}"><button class="active">Instagram</button></a>
-            <button>Google Review</button>
+            <a href="{{route('customer.review')}}"><button>Reviews</button></a>
         </div>
         <div class="image-grid">
             <a href="https://www.instagram.com/p/C-HfKqrzep0/" target="_blank"> <img src="{{ asset('fromInstagram/insta1.jfif') }}" alt="Food 1" width="200" height="350"> </a>

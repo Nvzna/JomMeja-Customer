@@ -15,7 +15,9 @@
 <body>
     <div class="container">
         <div class="header">
-            <div class="logo">JomMeja</div>
+            <div class="logo"><img src="{{ asset('images/logoMeja3.png') }}" alt="Logo" class="logo-img">
+                JomMeja
+            </div>
             <div class="menu-icon" onclick="toggleSidebar()">☰</div>
         </div>
         <div id="sidebar" class="sidebar">
@@ -44,7 +46,7 @@
             <a href="{{route('customer.depan')}}" ><button>All</button></a>
             <button class="active">Tiktok</button>
             <a href="{{route('customer.instagram')}}"><button>Instagram</button></a>
-            <button>Google Reviews</button>
+            <a href="{{route('customer.review')}}"><button>Reviews</button></a>
         </div>
         <div class="image-grid">
             <a href="https://www.tiktok.com/@richiamocoffee/video/7398141650733649170?is_from_webapp=1&sender_device=pc" target="_blank"> <img src="{{ asset('fromTiktok/tiktok1.png') }}" alt="Food 1" width="200" height="350"> </a>

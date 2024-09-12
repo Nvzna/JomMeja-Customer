@@ -35,7 +35,7 @@
         </div>
 
         <div class="create-review">
-            <a href="{{route('customer.fillReview')}}" class="create-review">
+            <a href="https://www.google.com/search?client=ms-android-vivo-rvo3&sca_esv=5dee3501a499d8f9&sca_upv=1&sxsrf=ADLYWILtYH9rsJP8PieR2lVWn8M-Y0qKFg:1726129046682&q=richiamo+coffee+%40+klts+reviews&uds=ADvngMhVxgMjrmjcjvbY3jfFETIhK0tqQb6WWH_PK_RAoBgdBAGG31HwKkR6SeTeINDGX1nxgRp8D5ZJZ4dErLzEjmYq9dhin9LVyFMx9JROFMz-OCndmKfFPLOw9OY2FpNuPR7918Sczth7n9jKjlFSc_-psmMNcYHAQ1nXcidbHxqMH7vIFA1L0db5dV4lpY_mravjB6xNWg_BoiO3-HSdWicy4MiwUHebyX-Tp1MhyBzEyic2WNZBS80anWkJDgpCzhgMPyH0BXREvmqd4cp0eJdCS1hjBQqT_TLylGNsTW4-Ng2wpEfEtjj9paTAij-eL7U3xSBOTmhxbcm3bZEonAKgh9gfOdn94UcGAzwnlzJUy0_4oxrSQbHCCXo_q3Es03YIapYOJQM-11tGfyDpRNl-2VKczfQteFw5USNKS0-Zij_vVK7fTFhNX3kmnwfZ8s9tpeze&si=ACC90nwjPmqJHrCEt6ewASzksVFQDX8zco_7MgBaIawvaF4-7laLwOKjjWZH3hQ85sLP4qDc1js2cUWFawSnaRpVO8vkQ86l4b60sdCJI27pjK19UdOr5tPXxlPHdeuhijCJr8FUvDZqb6CPT8K8frvdOfmB8dzhqA%3D%3D&sa=X&ved=2ahUKEwiM0Kfl-7yIAxXoRmcHHSl5DXwQk8gLegQIIxAB&ictx=1" class="create-review">
                 <button type="button"><h5>Submit a review</h5></button>
             </a>
         </div>

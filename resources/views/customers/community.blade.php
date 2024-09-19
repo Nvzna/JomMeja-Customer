@@ -12,7 +12,7 @@
     <div class="container">
         <!-- Header Section -->
         <div class="header">
-            <div class="logo"><img src="{{ asset('images/logoMeja3.png') }}" alt="Logo" class="logo-img">
+            <div class="logo"><img src="{{ asset('images/logoMeja4.png') }}" alt="Logo" class="logo-img">
                 JomMeja
             </div>
             <div class="menu-icons">

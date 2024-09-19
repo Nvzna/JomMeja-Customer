@@ -20,7 +20,7 @@
 <body> <br>
 
     <div class="header">
-        <div class="logo"><img src="{{ asset('images/logoMeja3.png') }}" alt="Logo" class="logo-img">
+        <div class="logo"><img src="{{ asset('images/logoMeja4.png') }}" alt="Logo" class="logo-img">
             JomMeja
         </div>
         <div class="menu-icon" onclick="toggleSidebar()">☰</div>

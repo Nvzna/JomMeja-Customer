@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
-    <link rel="icon" href="{{ asset('images/logoMeja3.png') }}" type="image/icon type">
+    <link rel="icon" href="{{ asset('images/logoMeja4.png') }}" type="image/icon type">
     <link rel="stylesheet" type="text/css" href="{{ url('/CSS/sidebr.css') }}" />
 
     <title>Homepage</title>
@@ -14,7 +14,7 @@
     <div class="container">
         <div class="header">
             <div class="logo">
-                <img src="{{ asset('images/logoMeja3.png') }}" alt="Logo" class="logo-img">
+                <img src="{{ asset('images/logoMeja4.png') }}" alt="Logo" class="logo-img">
                 JomMeja
             </div>
             <div class="menu-icon" onclick="toggleSidebar()">☰</div>
